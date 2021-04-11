@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ partial "compare/bannerimage.html" . }}
+ <div class="container lg:px-60">
+  
+  
+    <div class="mainbox md: flex">
+      <div class=" md:w-3/5">
+        
+        {{ partial "compare/australian.html" . }}
+        
+        </div>
+      
+      <div class="p-4 md:w-2/5 ">
+        {{ partial "compare/contact-form.html" . }}
+      </div>
+    </div>
+    {{ partial "compare/table.html" . }}
+  </div>
+  {{ partial "compare/securityDoors.html" . }}
+{{ partial "compare/feelSecure.html" . }}
+{{ end }}

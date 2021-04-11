@@ -1,0 +1,48 @@
+{{ with .Site.Params.ourProducts}}
+{{ if .enable }}
+{{ "<!-- Site Connect Digitize -->" | safeHTML }}
+<div class= "bg-gray-50">
+<div class="container md:px-60 text-center p-4">
+    <h2 >Our other Products</h2>
+    
+    <p >{{.productspara}}</p>
+       
+        
+        <div>
+            <div class=" grid md:grid-cols-4 gap-3 mb-8 mt-5 ml-0 sm: gap-10 ml-28">
+                <div class="relative  mb-8" style="width:200px; height:100px">
+                    <img src="/images/home-page/TENTUFF-FRENCH-SECURITY-DOORS-CLOSEUP-LR.jpg"
+                        class="foto w-full h-full object-cover  shadow-md"
+                        alt="description" />
+                        <h4 class="">Security Doors</h4>
+            <a href="/securitydoors/" class="">More Info.. </a>
+                </div>
+                <div class=" relative  mb-8" style="width:200px; height:100px">
+                    <img src="/images/home-page/TENTUFF-Security-windows-homepg.png"
+                        class="foto w-full h-full object-cover  shadow-md "
+                        alt="description" />
+                        <h4 >Security Windows</h4>
+            <a href="/securityWindows/" class="">More Info.. </a>
+                </div>
+<div class=" relative mb-8" style="width:200px; height:100px">
+                    <img src="/images/home-page/TENTUFF-PATIO-COVER.jpg"
+                        class="foto w-full h-full object-cover  shadow-md"
+                        alt="description" />
+                        <h4> Patio Enclosure</h4>
+            <a href="/patio/" class="">More Info.. </a>
+                </div>
+
+                <div class=" relative mb-8" style="width:200px; height:100px">
+                    <img src="/images/home-page/TENTUFF-Escape-windows-homepg.png"
+                        class="foto w-full h-full object-cover  shadow-md"
+                        alt="description" />
+                        <h4>Escape Enclosure</h4>
+            <a href="/escape/" class="">More Info.. </a>
+                </div>
+            </div> 
+        </div>
+</div>
+</div>
+{{ "<!-- Site Hero End -->" | safeHTML }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,74 @@
+$body-color: #fff;
+$primary-color: #FAAD26;
+$secondary-color: #F7F7F7;
+$tertiary-color:#3A3A3C;
+$text-color-default:#3A3A3C;
+
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  color: $text-color-default;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4
+ {
+  font-family: Roboto;
+}
+
+ul{
+  font-size: 14px;
+  color: $text-color-default;
+  font-family: Montserrat; 
+   
+}
+p {
+  font-size: 16px;
+  color: $text-color-default;
+  font-family: Montserrat;
+}
+
+h1 {
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+}
+
+h2 {
+  //styleName: Title 2;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 38px;
+  font-weight: 400;
+  }
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color:$tertiary-color;
+}
+h4{
+  font-size: 25px;
+  font-style: normal;
+  line-height: 38px;
+  font-weight: 300; 
+}
+a{
+   font-size: 14px;
+  color: $primary-color;
+  font-family: Montserrat;  
+}
+
+li{
+  font-size: 14px;
+  color:$tertiary-color;
+  line-height: 22px;
+  font-family: Montserrat; 
+  padding-bottom: 10px; 
+}

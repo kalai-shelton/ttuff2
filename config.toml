@@ -1,0 +1,48 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = " TENTUFF | Security Doors & Windows "
+theme = "ttuff"
+
+[params]
+  logo = "/images/tentuff-logo.png"
+
+[params.australian]
+  enable                = true
+  australianInnovation  = "TENTUFF is an Australian innovation, designed for security with style.Our products have been put through rigorous testing and have been provento be better than steel doors."    
+  para1 = "At first, let us discuss why Steel Security Doors has been the choice so  far, Steel Security doors generally offer a higher degree of security on all fronts with Reinforced Hinges, Hazard Resistant materials, and Theft Deterrent/Tamper-proof."
+  para2 = "Many home-owners opt from a wide range of designer  Metal or Steel Grills and/or Solid Steel doors to ensure the safety of their homes, windows or establishments."       
+  para3= "As you see, though regular steel security doors might be enough in some places, it may not always be the wisest choice!. So if you are questioning yourself as to whether there is  an alternative ?"
+  para4="….. Then here’s the answer!"
+    
+   
+ [params.securityDoors]  
+  enable        = true
+  securityTitle ="TENTUFF Security Doors"
+  securityPara1 ="The Security of Steel Doors from TENTUFF not only gives you Innovation matched with Style but gives you Durability and Unmatched Resilience. The super-strong, high tensile stainless steel mesh fitted  with world-class technology ensures superior protection to keep your family safe inside." 
+
+[params.everyTentuff]
+enable = true
+heading = "Feel Secure. Like Never Before"
+everyPara ="Every TENTUFF Security door stands tough with immense tensile strength to prevent any intruder from breaking into your home. This premium product has undergone multiple rigorous tests to withstand the impact based on several factors. With its advanced technology and security features, TENTUFF is trusted as the best-in-class security door and window system for homes."
+             
+ [params.ourProducts]  
+ enable = true
+ productsheading="Our Product Range"  
+ productspara="Protection for your home and family"        
+    
+[params.anAustralian]     
+enable = true    
+australianheading="TENTUFF Security Doors and Windows"    
+australianpara="An Australian innovation, designed to protect your loved ones, without compromising your lifestyle. With cutting edge technology and advanced features, it ensures security with style."
+button1="contact for a quote >"
+
+[params.build]  
+enable = true
+buildHead ="TENTUFF Assurance"
+buildPara="Built on strength, solidity and durability."
+
+[params.testimonal]  
+enable = true
+tHead="What our customer says"
+tPara="TENTUFF doors and windows are very strong"
+tPara1="I am person who likes to keep my doors and windows open and I could not do this earlier. But now after installing TENTUFF, I keep my doors and windows open and don't worry about anybody trying to break in. I am very happy with it."
